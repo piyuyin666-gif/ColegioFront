@@ -38,11 +38,6 @@
   width: 100%;
 }
 
-.actions-cell {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
 
 .loading-container {
   display: flex;
