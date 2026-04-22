@@ -1,0 +1,58 @@
+.page-container {
+  min-height: 100vh;
+  background: #f4f6f8;
+  padding: 24px;
+}
+
+.table-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.filters {
+  margin-bottom: 16px;
+}
+
+.search-field {
+  width: 100%;
+  max-width: 380px;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 16px;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.empty-state {
+  text-align: center;
+  color: #666;
+  padding: 32px 0;
+}
