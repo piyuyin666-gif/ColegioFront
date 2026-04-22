@@ -5,4 +5,6 @@ export interface MetaData {
   totalPages: number;
   hasNextPage: boolean;
   hasPreviousPage: boolean;
+
+  //pruiebaaaaaaaaaaaaaaaaa
 }
