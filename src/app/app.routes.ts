@@ -10,6 +10,13 @@ const loadUsuarioFormComponent = () =>
 const loadUsuarioListComponent = () =>
   import('./features/usuarios/pages/usuario-list/usuario-list').then(m => m.UsuarioListComponent);
 
+const loadTrimestreFormComponent = () =>
+  import('./features/trimestre/pages/trimestre-form/trimestre-form').then(m => m.TrimestreFormComponent);
+
+const loadTrimestreListComponent = () =>
+  import('./features/trimestre/pages/trimestre-list/trimestre-list').then(m => m.TrimestreListComponent);
+
+
 export const routes: Routes = [
   {
     path: 'login',
@@ -30,6 +37,14 @@ export const routes: Routes = [
       {
         path: 'editar/:id',
         loadComponent: loadUsuarioFormComponent
+      }
+      {
+        path: 'nuevo',
+        loadComponent: loadTrimestreFormComponent
+      },
+      {
+        path: 'editar/:id',
+        loadComponent: loadTrimestreFormComponent
       }
     ]
   },
